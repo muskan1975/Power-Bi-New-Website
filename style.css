@@ -3862,9 +3862,9 @@ font-size: 17px ;
     padding: 1rem;
 }
 .bonus-one{
-    height: 3rem;
-    width: 8rem;
-    margin-top: -2.3rem;
+    height: 2rem;
+    width: 6rem;
+    margin-top: -1.9rem;
     
      
     
@@ -3873,8 +3873,8 @@ font-size: 17px ;
     padding: 1rem !important;
 }
 .bonus-one b{
-    padding: 1rem;
-    font-size: 1rem;
+    padding: 0.5rem;
+    font-size: 13px;
   
 }
 .box-item p{
