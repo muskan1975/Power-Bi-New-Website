@@ -3362,6 +3362,9 @@ input{
 
 /*RESPONSIVE WEBSITE FOR 200PX TO 349PX*/
 @media  screen and (min-width:250px) and (max-width:349px){
+    .fifth-c{
+        margin-top: -2rem !important;
+    }
 
     .head{
         display: flex;
