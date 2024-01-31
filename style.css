@@ -1967,7 +1967,7 @@ input{
         margin: 1rem 0.5rem;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         gap: 0.5rem;
     }
     .checkColor{
@@ -2802,7 +2802,7 @@ input{
     margin: 1rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 1rem;
 }
 .checkColor{
@@ -3529,7 +3529,7 @@ input{
     }
     
     #green-t{
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
     
     
@@ -3543,18 +3543,18 @@ input{
         font-weight: 400;
     }
     .wk-start{
-        font-size: 1rem;
+        font-size: 13px;
         line-height: 1.5rem;
-        padding: 1rem 0.5rem ;
+        padding: 0.5rem 0rem ;
         text-align: center;
     }
     .wk-start b{
-        font-size: 0.8rem !important;
+        font-size: 12px !important;
         padding-top: 1rem;
        
     }
     .plz-check b{
-       font-size:1rem !important;
+       font-size:14px !important;
      
       text-align: center;
       padding: 2rem 0rem;
@@ -3581,7 +3581,7 @@ input{
     display: flex;
     padding: 1rem;
     justify-content: center;
-    align-items: center;
+    align-items:start;
     gap: 0rem;
 }
 .checkColor{
@@ -3683,10 +3683,10 @@ input{
        padding: 1rem;
    }
    .discript h2{
-       text-align: center;
-       width: 265px;
-       margin: -1rem auto !important;
-       font-size: 13px !important;
+    text-align: center;
+    width: 252px;
+    margin: -1rem auto !important;
+    font-size: 12px !important;
        line-height: 1.2rem !important;
    
    }
@@ -3759,7 +3759,7 @@ input{
 .bi-tool span{
     font-size: 12px;
     margin: auto !important;
-    width: 246px !important;
+    width: 232px !important;
     line-height: 1rem;
     
 }
@@ -3813,9 +3813,13 @@ font-size: 17px ;
 }
 .workshop{
     text-align: center;
-    width: 254px;
+    width: 247px;
     margin: 1rem auto !important;
     line-height: 1rem;
+}
+.BiInfo{
+    width: 200px !important;
+    margin: auto !important;
 }
 .workshop span{
     font-size: 1rem;
@@ -3918,9 +3922,10 @@ font-size: 17px ;
     text-align: center;
     color: #FFFFFF;
     font-family: "Montserrat", Sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     margin-top: 0rem;
+    padding: 0rem 0.5rem;
 }
 .font{
     font-size: 1.5rem;
@@ -3953,6 +3958,7 @@ font-size: 17px ;
 }
 .Container1{
     padding-bottom: 1rem;
+    margin-top: -2rem;
 }
 .HeadingBox
 {
@@ -4035,7 +4041,7 @@ font-size: 17px ;
     font-size: 1rem;
     line-height: 1.2rem;
     text-align: center;
-    margin: auto !important;
+    margin: -1rem auto !important;
     
     
     
@@ -4111,20 +4117,23 @@ font-size: 17px ;
 }
 .paras1{
     color: white;
-    width: 264px;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
-    font-weight: 300;
-    padding: 1rem 0.5rem;
+    font-weight: 400;
     margin: auto !important;
+    padding: 0.5rem;
     line-height: 1.2rem;
+    width: 220px;
 
 }
 .six-c{
     padding-bottom: 1rem;
 }
+.lr{
+    font-size: 14px !important;
+}
 .or{
-    font-size: 1rem !important;
+    font-size: 14px !important;
 }
 .seven-c{
     height: auto;
@@ -4137,12 +4146,13 @@ font-size: 17px ;
     padding: 1rem;
     font-weight: 600;
     font-size: 1.5rem;
+    margin-bottom: -1rem;
 }
 .blue{
     font-size: 1.3rem !important;
 }
 .paras2{
-    color: rgba(0, 0, 0, 0.714);
+    color:black;
     font-size: 16px;
     text-align: center;
     font-weight: 400;
