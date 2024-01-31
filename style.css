@@ -57,11 +57,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    
+}
+#green-t{
+    font-size: 25px !important;
 }
 .IframeVideo{
-    width: 60rem;
-    height: 25rem;
+    width: 40rem;
+    height: 20rem;
 }
 
 .enroll-now{
@@ -196,6 +198,7 @@ input{
    justify-content: center;
    align-content: center;
    padding: 2rem;
+   margin-bottom: -2rem !important;
 }
 .check-boxes{
     display: flex;
@@ -210,7 +213,7 @@ input{
 }
 .invite span{
     color: black;
-    font-size: 2rem;
+    font-size: 25px;
 }
 .invite b{
     color: red;
@@ -254,19 +257,19 @@ input{
     gap: 2rem;
 }
 .board1{
-    width: 24rem;
-    height: 23rem;
+    width: 22rem;
+    height: 20rem;
     background-color:rgba(231, 209, 209, 0.375);
     border-radius: 0rem 0rem 1rem 1rem;
     box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.295);
 }
 .board1 img{
-    width: 24rem !important;
-    height: 18rem;
+    width: 22rem !important;
+    height: 16rem;
 }
 .board1 span{
     color: black;
-    font-size: 1.5rem !important;
+    font-size: 22px !important;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -294,15 +297,14 @@ input{
 .discript h2{
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 300;
-    line-height: 2.5rem;
+    line-height: 2rem;
 
 }
 .discript b{
     color: black;
-    font-size: 27px;
-    
+    font-size: 24px;
 }
 .element{
     font-size: 27px;
@@ -548,7 +550,7 @@ input{
   
 }
 .box-item p{
-    font-size: 22px;
+    font-size: 21px;
     width: 380px;
     text-align: center;
     color: black;
@@ -1018,15 +1020,18 @@ input{
          font-weight: bolder;
          text-decoration:underline;
          padding: 1rem;
-         font-size: 1rem;
+         font-size: 20px;
      
+     }
+     .First-c{
+        padding: 1rem 0rem;
      }
      
      .head h2{
          color:rgb(209, 209, 13);
          text-decoration:underline;
          padding:1rem;
-         font-size: 1rem;
+         font-size: 20px;
          
      
      
@@ -1034,7 +1039,7 @@ input{
      .head b{
          font-weight: bolder;
          padding:0rem;
-         font-size: 1rem;
+         font-size: 20px;
      
      }
      
@@ -1043,7 +1048,8 @@ input{
          margin: 0;
          text-align: center;
          font-weight: bold;
-         font-size: 1rem;
+         font-size: 21px;
+         padding-top: 1rem;
      }
      .VideoClass{
          margin: 0;
@@ -1057,8 +1063,8 @@ input{
         margin-left: 0rem !important;
      }
      .IframeVideo{
-         width: 40rem;
-         height: 26rem;
+         width: 3r5em;
+         height: 20rem;
      }
      
      .enroll-btn{
@@ -1109,7 +1115,7 @@ input{
         align-items: center; 
         flex-direction: column;
         line-height: 2.5rem;
-        text-align: center;
+        text-align: start;
     }
     .circle-tick b{
         color: greenyellow;
@@ -1145,7 +1151,7 @@ input{
         accent-color:green;
         border-radius: 2rem;
         border: 2px solid gray;
-        margin-left: 1rem;
+        margin-left: 0.5rem;
         
     }
     .Checkbox1{
@@ -1204,7 +1210,7 @@ input{
     }
     .invite span{
         color: black;
-        font-size: 1.2rem;
+        font-size: 23px;
     }
     .invite b{
         color: red;
@@ -1238,7 +1244,7 @@ input{
     .dashboards{
         padding: 1rem;
         flex-direction: column;
-        gap: 2rem;
+        gap: 3rem;
     }
     .board1{
         width: 30rem;
@@ -1340,7 +1346,7 @@ input{
 }
 .feed-img{
     flex-direction: column;
-    gap: 1rem;
+    gap: 2em;
 }
 .feed-img img{
     width: 30rem;
@@ -1348,6 +1354,9 @@ input{
 .rating b{
     padding: 1rem;
     font-size: 1.8rem;
+}
+#b-ic{
+    padding: 1rem !important;
 }
 .rating span{
     font-size: 1.3rem;
@@ -1390,8 +1399,8 @@ input{
     flex-direction: column;
 }
 .worth-box1{
-    height: 20rem;
-    width: 35rem;
+    height: auto;
+    width: auto;
 }
 .lr{
     font-size: 1.3rem !important;
@@ -1482,7 +1491,7 @@ input{
     padding-top: 0rem;
 }
 .bonus2 span{
-    font-size: 2rem;
+    font-size: 22px;
     color: white;
     font-weight: 400;
     
@@ -1490,7 +1499,7 @@ input{
 }
 .bonus2 b{
     color: rgb(230, 114, 32);
-    font-size: xx-large;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -1558,7 +1567,9 @@ input{
     height: 9rem;
     border-radius: 1rem;
     font-size: 1.4rem;
+    gap: 1rem;
     text-align: start;
+    width: 20rem !important;
    
     
 }
@@ -1670,7 +1681,7 @@ input{
 }
 
 .img-box2{
-    width: 37rem;
+    width: 37rem !important;
     height: 25rem;
     background-color: rgba(187, 171, 171, 0);
     box-shadow:0px 0px 10px 5px rgb(226, 220, 220);
@@ -1678,7 +1689,7 @@ input{
 }
 .img-box2 img{
    
-    height: 23rem;
+    height: 23rem !important;
     width: 33rem;
     margin: 1rem;
 }
@@ -1784,6 +1795,9 @@ input{
          font-size: 0.8rem;
          text-align: center;
      }
+     .enroll-now{
+        padding: 2rem 0rem;
+     }
      .head span{
          color: rgb(240, 109, 39);
          font-weight: bold;
@@ -1825,13 +1839,16 @@ input{
          margin-top: 0rem;
          
      }
+     .First-c{
+        padding:  1rem 0.5rem;
+     }
      .IframeVideo{
-         width: 35rem;
+         width: 20rem;
          height: 10rem;
      }
      .enroll-btn{
-        height: auto;
-        width: auto;
+        height: 7rem;
+    width: 24rem;
         background-color: red;
         margin: auto;
        border-radius: 1rem;
@@ -1840,7 +1857,7 @@ input{
     }
     .btn{
        
-        padding: 2rem;
+        padding: 1rem 0.5rem;
        
     }
     .btn b{
@@ -1848,7 +1865,7 @@ input{
         text-align: center;
     }
     .btn span{
-        font-size: 1rem;
+        font-size: 10px;
        
     }
     .btn h5{
@@ -1870,6 +1887,7 @@ input{
          padding: 0rem;
          flex-direction: column;
          line-height: 2rem;
+         text-align: start;
          
          
          
@@ -1879,11 +1897,11 @@ input{
      
      
      .circle-tick b{
-         font-size: 1.3rem !important;
+         font-size: 17px !important;
         
      }
      .circle-tick span{
-         font-size:1.2rem;
+         font-size:18px !important;
          font-weight: 400;
      }
      .wk-start{
@@ -1910,7 +1928,7 @@ input{
         accent-color:green;
         border-radius: 2rem;
         border: 2px solid gray;
-        margin-left: 1rem;
+        margin-left: 0.5rem;
         
     }
     .Checkbox1{
@@ -1918,7 +1936,7 @@ input{
         height: 8rem;
         background-color: #FFFFFF;
         border-radius: 0.5rem;
-        margin: 1rem;
+        margin: 1rem 0.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1934,7 +1952,7 @@ input{
     }
     .firstCheckbox{
         display: flex;
-        gap: 1rem;
+        gap: 0.5rem;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -2004,7 +2022,7 @@ input{
     
     }
     .board1 img{
-        width: 24rem;
+        width: 24rem !important;
 
     }
     .board1 span{
@@ -2016,6 +2034,8 @@ input{
         font-size:2rem;
         font-weight: 800;
         padding: 1rem;
+        margin-top: 1rem;
+    margin-bottom: -1rem;
     }
     .told-you{
         font-size: 2rem;
@@ -2042,9 +2062,9 @@ input{
         padding: 0rem 1rem;
     }
     .discript h1{
-        font-size: 1.3rem;
+        font-size: 24px;
         text-align: center;
-        padding: 2rem;
+        padding: 1rem;
     }
     .discript h7{
         font-size: 1.3rem;
@@ -2081,7 +2101,8 @@ input{
         
     } 
     .em2{
-        width: 446px !important;
+        width: 480px !important;
+        padding: 0rem !important;
         margin: auto !important;
     }
     
@@ -2136,7 +2157,7 @@ input{
         color: black;
     }
     .workshop{
-        margin: 2rem 1rem;
+        margin: 1rem 1rem;
         text-align: center;
         line-height: 2rem;
     }
@@ -2147,7 +2168,7 @@ input{
         font-size: 1.5rem;
     }
     .sep{
-        height: 10rem;
+        height: auto;
 
         
     }
@@ -2155,7 +2176,7 @@ input{
         padding: 1rem;
     }
     .sep span{
-        font-size: 2rem;
+        font-size: 25px;
         text-align: center;
     }
     .sep b{
@@ -2164,11 +2185,11 @@ input{
     }
     .worth-boxes{
         padding: 2rem;
-        gap: 3rem;
+        gap: 4rem;
         flex-direction: column;
     }
     .worth-box1{
-        height: 20rem;
+        height: auto;
         width: 25rem;
     
        
@@ -2191,7 +2212,7 @@ input{
       
     }
     .box-item p{
-        font-size: 1rem;
+        font-size: 19px;
         margin:  0.5rem 0rem;
         padding-bottom: 1rem;
     
@@ -2214,8 +2235,8 @@ input{
         
     }
     .PowerBiImg {
-        width: 30rem;
-        height: 19rem;
+        width: 25rem;
+    height: 15rem;
        
     }
     
@@ -2224,7 +2245,7 @@ input{
         font-family: "Poppins", Sans-serif;
         font-size: 2rem;
         font-weight: 700;
-        padding: 2rem;
+        padding: 1rem;
     }
     
     
@@ -2232,9 +2253,9 @@ input{
         text-align: center;
         color: #FFFFFF;
         font-family: "Montserrat", Sans-serif;
-        font-size: 1.5rem;
-        font-weight: 400;
-        margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1rem;
     }
     .font{
         font-size: 1.5rem;
@@ -2243,9 +2264,12 @@ input{
         text-align: center;
         padding-bottom: 2rem;
     }
+    #b-ic{
+        padding: 1rem !important;
+    }
     
     .bonus2 span{
-        font-size: 1rem;
+        font-size: 20px;
         color: white;
         font-weight: 400;
         
@@ -2253,7 +2277,7 @@ input{
     }
     .bonus2 b{
         color: rgb(230, 114, 32);
-        font-size: large;
+        font-size: 18px;
         font-weight: 700;
     }
     
@@ -2306,17 +2330,40 @@ input{
     }
     
     .mentor2-image img{
-        height: 23rem;
-        width: 25rem;
+        height: 21rem;
+        width: 22rem;
+        margin-top: 1rem;
 
         
     }
+    .TowinOneContainer{
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .TowinOneContainer2{
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .TowinOneContainer3{
+        display: flex !important;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
     .four-boxes{
-        height: 9rem;
-        border-radius: 1rem;
-        font-size: 1.4rem;
+        height: 5rem !important;
+        width: 14rem !important;
+        display: flex;
+        font-size: 13px !important;
+        font-weight: 400;
+        padding: 1rem 0.5rem;
+        gap: 1rem;
         text-align: start;
-        gap: 2rem;
         
        
         
@@ -2326,15 +2373,15 @@ input{
     }
     
      .para1 {
-        margin: auto !important;
-        width: 379px;
-        padding: 1rem 0rem;
-        font-size: 25px;
-        line-height: 2rem;
+        margin: 1rem auto !important;
+    width: 366px;
+    padding: 1rem 0rem;
+    font-size: 25px;
+    line-height: 2rem;
         
      }
      .ms{
-        font-size: 1.5rem !important;
+        font-size: 24px !important;
      }
      .discripts{
         text-align: center;
@@ -2366,7 +2413,7 @@ input{
         
     }
     .enroll-btn2{
-        height: 10rem;
+        height: 8rem;
         width: 27rem;
         background-color: red;
         margin: auto;
@@ -2380,12 +2427,18 @@ input{
        
     }
     .btn2 b{
-        font-size: 1.4rem;
+        font-size: 16px;
         text-align: center;
     }
     .btn2 span{
         font-size: 1rem;
        
+    }
+    .or{
+        font-size: 20px !important;
+    }
+    .lr{
+        font-size: 20px !important;
     }
     .btn h5{
         font-weight: 600;
@@ -2399,9 +2452,11 @@ input{
     .paras1{
         color: white;
         font-size: 1.3rem;
+        width: 369px;
+        margin: auto;
         text-align: center;
         font-weight: 400;
-        padding: 2rem;
+        padding: 1rem 0.5rem;
         line-height: 2rem;
     
     }
@@ -2567,8 +2622,8 @@ input{
         align-items: center;
         flex-direction: column;
          padding: 0rem;
-         line-height: 1rem;
-         font-size: 0.8rem;
+         line-height: 1.1rem;
+         font-size: 0.9rem;
          text-align: center;
      }
      .head span{
@@ -2576,7 +2631,7 @@ input{
          font-weight: bold;
          text-decoration:underline;
          padding: 0rem;
-         font-size: 0.8rem;
+         font-size: 0.9rem;
      
      }
      
@@ -2584,15 +2639,18 @@ input{
          color:rgb(209, 209, 13);
          text-decoration:underline;
          padding:0rem;
-         font-size: 0.8rem;
+         font-size: 0.9rem;
          
      
      
      }
+     .First-c{
+        padding: 1rem 0.5rem
+     }
      .head b{
          font-weight: bold;
          padding:0rem;
-         font-size: 0.8rem;
+         font-size: 0.9rem;
      
      }
      
@@ -2602,7 +2660,7 @@ input{
          text-align: center;
          font-weight: bold;
          font-size: 0.8rem;
-         padding: 1rem;
+         padding: 1rem 0rem;
      }
      .VideoClass{
          margin: 0;
@@ -2613,7 +2671,7 @@ input{
          
      }
      .IframeVideo{
-         width: 20rem !important;
+         width: 15rem !important;
          height: 10rem !important;
      }
      
@@ -2627,9 +2685,12 @@ input{
         height: 7rem;
    
     }
+    .fifth-c{
+        padding: 1rem 0.3rem;
+    }
     .btn{
        
-        padding: 1rem;
+        padding: 1rem 0.5rem;
         text-align: center;
        
     }
@@ -2650,8 +2711,9 @@ input{
     }
     .right-ticks{
        
-        margin: 2rem 2rem;
+        margin: 2rem 0rem;
         flex-direction: column;
+        margin-left: 1rem !important;
         
        
     
@@ -2665,15 +2727,15 @@ input{
         line-height: 2rem;
     }
     .circle-tick b{
-        font-size: 16px !important;
+        font-size: 13px !important;
        
     }
     .circle-tick span{
-        font-size:1.1rem !important;
+        font-size:13px !important;
         font-weight: 400;
     }
     .wk-start{
-        font-size: 17px;
+        font-size: 14px;
         line-height: 1.5rem;
         padding: 0.5rem;
         text-align: center;
@@ -2685,8 +2747,12 @@ input{
        
     }
     .plz-check b{
-       font-size:1.5rem !important;
+       font-size:17px !important;
       text-align: center;
+      padding: 1rem !important;
+   }
+   .invite{
+    margin-top: 1rem;
    }
    input{
     width: 3rem;
@@ -2745,7 +2811,7 @@ input{
 
 }
    .invite span{
-       font-size: 1.5rem;
+       font-size: 19px;
    }
    .invite b{
        color: red;
@@ -2806,27 +2872,30 @@ input{
    }
    .discript h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     margin: auto;
     width: 348px;
     margin-top: -2rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
+   }
+   .fm-work{
+    padding: 1rem;
    }
    .gr{
-    font-size: 20px !important;
+    font-size: 18px !important;
    }
    .red{
-    font-size: 20px !important;
+    font-size: 18px !important;
    }
    .bl{
-    font-size: 20px !important;
+    font-size: 18px !important;
    }
    .or{
     font-size: 16px !important;
    }
    .discript b{
        color: black;
-       font-size: 1.3rem;
+       font-size: 18px;
        
    }
    .element{
@@ -2840,7 +2909,7 @@ input{
        padding: 0rem;
    }
    .em2{
-    width: 297px !important;
+    width: 284px !important;
    }
    .discript h7{
        font-size: 16px;
@@ -2873,8 +2942,11 @@ input{
     margin: 0rem;   
 }
 .bi-tool b{
-    font-size: 23px !important;
+    font-size: 18px !important;
     text-align: center;
+}
+#str{
+    font-size: 28px !important;
 }
 .feedback-boxes{
     gap: 1rem;
@@ -2939,12 +3011,12 @@ input{
     text-align: center;
 }
 .worth-boxes{
-    padding: 1rem;
-    gap: 2rem;
+    padding: 2rem;
+    gap: 4rem;
     flex-direction: column;
 }
 .worth-box1{
-    height: 18rem;
+    height: auto;
     width: 16rem; 
 }
 .box-item{
@@ -2957,7 +3029,7 @@ input{
     margin-top: -2.3rem;    
 }
 #b-ic{
-    margin-top: 1rem !important;
+    margin-top: 0rem !important;
     font-size: 50px !important;
     padding: 1rem !important;
 }
@@ -2995,9 +3067,9 @@ input{
 .Heading {
     color: #FFFFFF;
     font-family: "Poppins", Sans-serif;
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 700;
-    padding: 2rem;
+    padding: 2rem 1rem;
 }
 .paregraph {
     width: 337px;
@@ -3049,7 +3121,7 @@ input{
     margin-top: 1rem;
     color: #000000;
     font-family: "Poppins", Sans-serif;
-    font-size: 2.5rem;
+    font-size: 26px;
     font-weight: 700
 }
 .box1{
@@ -3147,6 +3219,7 @@ input{
     padding: 0rem 0rem;
     margin: auto;
     width: 344px;
+    margin-bottom: 1rem !important;
     line-height: 1.6rem;
 }
 .paras1 b{
@@ -3161,14 +3234,14 @@ input{
     text-align: center;
     padding: 1rem;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 27px;
 }
 .paras2{
     color: rgba(0, 0, 0, 0.714);
     font-size: 16px;
     text-align: center;
     font-weight: 400;
-    width: 333px;
+    width: 317px;
     margin: auto;
     padding: 1rem 0.5rem;
     line-height: 1.5rem;
@@ -3296,7 +3369,7 @@ input{
         flex-direction: column;
          padding: 0rem;
          line-height: 1rem;
-         font-size: 0.8rem;
+         font-size: 10px;
          text-align: center;
      }
      .head span{
@@ -3304,15 +3377,18 @@ input{
          font-weight: bold;
          text-decoration:underline;
          padding: 0rem;
-         font-size: 0.8rem;
+         font-size: 10px;
      
+     }
+     .First-c{
+        padding: 1rem 0.2rem !important;
      }
      
      .head h2{
          color:rgb(209, 209, 13);
          text-decoration:underline;
          padding:0rem;
-         font-size: 0.8rem;
+         font-size: 10px;
          
      
      
@@ -3320,7 +3396,7 @@ input{
      .head b{
          font-weight: bold;
          padding:0rem;
-         font-size: 0.8rem;
+         font-size: 10px;
      
      }
      
@@ -3344,12 +3420,13 @@ input{
         font-size: 16px !important;
      }
      .IframeVideo{
-         width: 10rem;
+         width: 12rem;
          height: 6rem;
      }
      
      .enroll-now{
-        padding: 0.6rem;
+        padding: 0.6rem 0.2rem;
+    margin-top: 0.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -3369,11 +3446,11 @@ input{
     }
     .btn{
        
-        padding: 1rem;
+        padding: 0.5rem;
        
     }
     .btn b{
-        font-size: 0.8rem;
+        font-size: 10px;
         font-weight: bold;
         display: flex;
         text-align: center;
@@ -3399,7 +3476,8 @@ input{
        
         margin: 1rem 0rem;
         flex-direction: column;
-    
+        margin-top: 0.5rem !important;
+        margin-bottom: 0rem;    
        
     
     }
@@ -3407,7 +3485,7 @@ input{
         margin-left: 0rem !important;
     }
     .right-tick{
-        padding: 0rem;
+        padding: 0rem 0.5rem;
         flex-direction: column;
         line-height: 1.5rem;
         gap: 2rem;
@@ -3418,6 +3496,10 @@ input{
     
     }
     
+    #green-t{
+        font-size: 14px !important;
+    }
+    
     
     
     .circle-tick b{
@@ -3425,13 +3507,13 @@ input{
        
     }
     .circle-tick span{
-        font-size:0.8rem !important;
+        font-size:10px !important;
         font-weight: 400;
     }
     .wk-start{
         font-size: 1rem;
         line-height: 1.5rem;
-        padding: 1rem;
+        padding: 1rem 0.5rem ;
         text-align: center;
     }
     .wk-start b{
@@ -3443,6 +3525,7 @@ input{
        font-size:1rem !important;
      
       text-align: center;
+      padding: 2rem 0rem;
    }
 
 
@@ -3458,23 +3541,24 @@ input{
     
 }
 .Checkbox1{
-    width: 11rem;
+    width: 14rem;
     height: auto;
     background-color: #FFFFFF;
     border-radius: 0.5rem;
-    margin: 1rem;
+    margin: 0.5rem;
     display: flex;
     padding: 1rem;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 0rem;
 }
 .checkColor{
     color: #000000;
-    font-size: 0.6rem;
+    font-size: 12px;
 }
 .Checkboxes{
     background-color: whitesmoke;
+    margin-top: 1rem;
     
 }
 .firstCheckbox{
@@ -3523,9 +3607,9 @@ input{
    }
    .bar2{
        width: 100%;
-       height: 6rem;
+       height: auto;
        background-color: rgba(3, 5, 24, 0.777);
-       margin:  1rem 0rem;
+       margin:  0rem 0rem;
    
    
    }
@@ -3534,9 +3618,10 @@ input{
        text-align: center;
    }
    .dashboards{
+    margin-top: 2rem;
        flex-direction: column;
        padding: 0rem;
-       gap: 3rem;
+       gap: 2rem;
    }
    .board1{
        width: 12rem;
@@ -3567,13 +3652,15 @@ input{
    }
    .discript h2{
        text-align: center;
-       font-size: 1.2rem !important;
-       line-height: 1.5rem !important;
+       width: 265px;
+       margin: -1rem auto !important;
+       font-size: 13px !important;
+       line-height: 1.2rem !important;
    
    }
    .discript b{
        color: black;
-       font-size: 1.1rem;
+       font-size: 13px;
        
    }
    .element{
@@ -3587,11 +3674,15 @@ input{
        padding: 1rem;
    }
    .discript h7{
-       font-size: 1.5rem;
+       font-size: 15px;
        text-align: center;
    }
    .learn-boxes{
-       padding: 1rem;
+       padding: 1rem 0rem ;
+   }
+   .fm-work{
+    padding: 1rem 1rem;
+    gap: 1rem;
    }
    
    .five-box{
@@ -3600,7 +3691,7 @@ input{
    .f-tbox{
        height: auto;
        width: auto;
-    
+       margin: 0.5rem;
       
    }
    .fm-work img{
@@ -3609,7 +3700,8 @@ input{
    }
    .fm-work span{
 
-       font-size: 10px !important;
+    font-size: 11px !important;
+    text-align: center;
    
       
    }
@@ -3622,15 +3714,21 @@ input{
    }
 
    .third-c{
-    height: 15rem;
+    height: auto;
+    padding: 0.5rem;
+    margin-top: -1rem;
 
     
 } 
+#str{
+    font-size: 25px !important;
+}
 
 .bi-tool span{
-    font-size: 0.6rem;
+    font-size: 12px;
+    margin: auto !important;
+    width: 246px !important;
     line-height: 1rem;
-    margin: 0rem;
     
 }
 .bi-tool b{
@@ -3670,27 +3768,28 @@ input{
     flex-direction: column;
 }
 .rating b{
-    padding: 1rem;
-    font-size: 0.6rem;
+    padding: 1rem 0.5rem;
+font-size: 17px ;
 
 }
 .rating span{
-    font-size: 0.5rem;
+    font-size: 12px;
 }
 .element3 p{
     font-size: 0.6rem;
     color: black;
 }
 .workshop{
-    margin: 2rem 1rem;
     text-align: center;
+    width: 254px;
+    margin: 1rem auto !important;
     line-height: 1rem;
 }
 .workshop span{
     font-size: 1rem;
 }
 .workshop b{
-    font-size: 1rem;
+    font-size: 13px;
 }
 .sep{
     height: 6rem;
@@ -3712,12 +3811,12 @@ input{
 .worth-boxes{
     margin-top: 1rem;
     padding: 1rem;
-    gap: 2rem;
+    gap: 3rem;
     flex-direction: column;
 }
 .worth-box1{
-    height: 18rem;
-    width: 12rem;
+    height:auto;
+    width: 15rem;
 }
 .fa-5x{
     font-size: 3em !important;
@@ -3733,6 +3832,9 @@ input{
     
      
     
+}
+#b-ic{
+    padding: 1rem !important;
 }
 .bonus-one b{
     padding: 1rem;
@@ -3767,15 +3869,16 @@ input{
 .PowerBiImg {
     width: 13rem;
     height: 10rem;
+    margin-top: 1rem;
    
 }
 
 .Heading {
     color: #FFFFFF;
     font-family: "Poppins", Sans-serif;
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 700;
-    padding: 2rem;
+    padding: 1rem 0rem;
 }
 
 
@@ -3808,12 +3911,16 @@ input{
     font-weight: 700;
 }
 .BiInfo {
-    font-size: 14px; 
+    font-size: 14px;
     text-align: center;
-    width: 14rem;
+    width: 17rem;
     margin: auto;
     margin-top: 0rem;
-    padding: 1rem;
+    padding: 1rem 0.2rem;
+    margin-bottom: -1rem;
+}
+.Container1{
+    padding-bottom: 1rem;
 }
 .HeadingBox
 {
@@ -3857,26 +3964,27 @@ input{
 }
 
 .mentor2-image img{
-    height: 10rem;
-    width: 10rem;
+    height: 12rem;
+    width: 14rem;
     padding: 0.5rem;
 
     
 }
 .four-boxes{
-    height: 6rem;
+    height: 4rem !important;
     border-radius: 1rem;
     font-size: 0.8rem;
     text-align: start;
     gap: 1rem;
     font-weight: 400;
-    width: 8rem;
+    width: 16rem 1vmin;
     
    
     
 }
 .faculty-boxes1{
     flex-direction: column;
+    padding-top: 1rem;
 }
 
  .para1 {
@@ -3969,13 +4077,17 @@ input{
 }
 .paras1{
     color: white;
-    width: 247px;
-    font-size: 1.1rem;
+    width: 264px;
+    font-size: 15px;
     text-align: center;
     font-weight: 300;
-    padding: 1rem;
+    padding: 1rem 0.5rem;
+    margin: auto !important;
     line-height: 1.2rem;
 
+}
+.six-c{
+    padding-bottom: 1rem;
 }
 .or{
     font-size: 1rem !important;
@@ -3997,12 +4109,13 @@ input{
 }
 .paras2{
     color: rgba(0, 0, 0, 0.714);
-    font-size: 1.2rem;
+    font-size: 16px;
     text-align: center;
     font-weight: 400;
+    margin: auto !important;
     padding: 0.5rem;
     line-height: 1.2rem;
-    width: 250px;
+    width: 220px;
 
 }
 .profile-image{
@@ -4062,7 +4175,7 @@ input{
 }
 .accordion .faq-box .ques{
     position: relative;
-    padding: 1rem;
+    padding: 1rem 0.5rem;
     color:white;
     cursor: pointer;
     font-size: 0.8rem;
